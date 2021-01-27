@@ -1,0 +1,14 @@
+<mat-sidenav-container class="example-container">
+  <mat-sidenav #sidenav [(opened)]="opened">Sidenav</mat-sidenav>
+  <mat-sidenav-content>
+    <button (click)="sidenav.toggle()">
+      <span class="material-icons">
+        menu
+      </span>
+    </button>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+<!-- Copyright 2020 Google LLC. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at http://angular.io/license -->
